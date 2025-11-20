@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(245, 234, 226);
+}
+
+h1 {
+    color: rgb(64, 64, 64);
+    font-family: Georgia, serif;
+}
+
+h2 {
+    color: rgb(64, 64, 64);
+    font-family: Georgia, serif;
+}
+
+.box {
+  border: 5px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
