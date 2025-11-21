@@ -1,16 +1,19 @@
-body {
-    background-color: rgb(245, 234, 226);
+body, ul{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 67, 28);
 }
 
 h1 {
-    color: rgb(64, 64, 64);
+    color: rgb(231, 64, 64);
     font-family: Georgia, serif;
 }
 
-h2 {
-    color: rgb(64, 64, 64);
+p {
+    color: rgb(231, 64, 64);
     font-family: Georgia, serif;
 }
+
 
 .box {
   border: 5px solid #ccc;
@@ -18,4 +21,29 @@ h2 {
   margin: 20px;
   border-radius: 8px;
   background-color: #f9f9f9;
+}
+
+nav {
+    background-color: #aeacac;
+    padding: 10px, 20px
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:rgb(231, 64, 64)
 }
